@@ -1,0 +1,77 @@
+.Option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #2e2e47; /* A darker background for consistency with navbar */
+}
+
+/* Styling for the "Form" button */
+.opt__form {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.opt__form:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+    transform: translateY(-3px); /* Slightly lift the button */
+}
+
+/* Styling for the "Data" button */
+.opt__data {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-left: 2px solid #444;
+    /* border-radius: 12px; */
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    /* background-color: #ff6f61; Red for "Data" */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.opt__data:hover {
+    background-color: #e65c4f;
+    border-color: #e65c4f;
+    transform: translateY(-3px); /* Slightly lift the button */
+}
+
+/* Center the text inside each button */
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Option {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 3rem 1.5rem;
+    }
+
+    .opt__form,
+    .opt__data {
+        width: 100%;
+        padding: 1rem;
+    }
+}

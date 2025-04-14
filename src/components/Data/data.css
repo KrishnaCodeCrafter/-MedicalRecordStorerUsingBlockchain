@@ -1,0 +1,78 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1f1f38; /* Same as navbar background */
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+}
+
+/* Table container */
+table {
+  border-collapse: collapse;
+  width: 95%;
+  max-width: 1200px;
+  margin: 3rem auto;
+  background-color: #2e2e47; /* Darker card look */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+  font-size: 0.95rem;
+  table-layout: fixed;
+  color: white;
+}
+
+/* Table header */
+th {
+  background-color: #14142b; /* Slightly darker for header row */
+  color: #f5c56b; /* Accent gold from wallet balance */
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+/* Table cells */
+td {
+  padding: 1rem;
+  text-align: left;
+  word-wrap: break-word;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Alternate row styling */
+tr:nth-child(even) {
+  background-color: #3a3a5c;
+}
+
+tr:nth-child(odd) {
+  background-color: #2e2e47;
+}
+
+tr:hover {
+  background-color: #44446a; /* Highlight row on hover */
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.85rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Heading if wallet not connected */
+h1 {
+  text-align: center;
+  color: #f5c56b; /* Accent color */
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}

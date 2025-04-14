@@ -1,0 +1,111 @@
+/* Base styles for the form container */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: #1f1f38; /* Matches the dark theme of navbar */
+    min-height: calc(100vh - 70px); /* Accounts for sticky navbar */
+}
+
+/* Form styling */
+form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #2e2e47; /* Slightly lighter than background for contrast */
+    padding: 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Form title */
+form h1 {
+    text-align: center;
+    color: #f5c56b; /* Accent color (from navbar balance) */
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: #ddd;
+    font-size: 1rem;
+}
+
+/* Inputs and selects */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.4rem;
+    border-radius: 12px;
+    border: 1.5px solid #444;
+    background-color: #3c3c5c;
+    color: white;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus styles */
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #4caf50;
+    background-color: #484868;
+}
+
+/* Dropdown option styling */
+select option {
+    color: white;
+    background-color: #3c3c5c;
+}
+
+/* Submit button */
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+/* Message when account isn't connected */
+.form-container > h1 {
+    font-size: 1.5rem;
+    color: #ccc;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        padding: 1.8rem;
+    }
+
+    form h1 {
+        font-size: 1.5rem;
+    }
+}

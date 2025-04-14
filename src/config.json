@@ -1,0 +1,15 @@
+{
+    "31337": {
+      "MedicalRecord": {
+        "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+      },
+      "explorerURL": "#"
+    },
+    "11155111": {
+      "MedicalRecord": {
+        "address": "0xDee8Ff39c59A71C2c18E44353491507B06B4875E"
+      },
+      "explorerURL": "https://sepolia.etherscan.io/"
+    }
+  }
+  

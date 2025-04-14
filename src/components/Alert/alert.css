@@ -1,0 +1,91 @@
+/* Background overlay */
+.overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease;
+}
+
+/* Overlay is visible when needed (for pending or error states) */
+.overlay.show {
+    opacity: 1; /* Show overlay when necessary */
+}
+
+/* Alert Container */
+.alert {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 999;
+}
+
+/* Alert box shared styles */
+.alertBox {
+    background-color: #2d2d3f;
+    color: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    min-width: 300px;
+    max-width: 400px;
+    animation: slideIn 0.4s ease-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Alert types */
+.alertBox.success {
+    border-left: 6px solid #4caf50;
+}
+
+.alertBox.error {
+    border-left: 6px solid #f44336;
+}
+
+.alertBox.pending {
+    border-left: 6px solid #ff9800;
+}
+
+/* Hash display */
+.transactionHashOut {
+    margin-top: 0.8rem;
+}
+
+.transactionHash {
+    color: #f5c56b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.transactionHash:hover {
+    text-decoration: underline;
+}
+
+/* Hide animation */
+.hide {
+    animation: fadeOut 0.3s forwards;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Fade-out animation */
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
