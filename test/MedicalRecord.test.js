@@ -4,7 +4,7 @@ const { ethers } = require("hardhat");
 describe("MedicalRecord", () => {
 	let medical, user1, transactionResponse, transactionReceipt;
 	const testRecord = [
-		"Wastron",
+		"Jatin",
 		22,
 		"Male",
 		"B positive",

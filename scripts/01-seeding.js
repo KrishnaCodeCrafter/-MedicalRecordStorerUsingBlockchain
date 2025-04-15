@@ -21,7 +21,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -34,7 +34,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -47,7 +47,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -60,7 +60,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -73,7 +73,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -86,7 +86,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -99,7 +99,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -112,7 +112,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Clark",
+      "Ram",
       29,
       "Female",
       "B negative",
@@ -125,7 +125,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -138,7 +138,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -151,7 +151,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -164,7 +164,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -177,7 +177,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -190,7 +190,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -203,7 +203,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -216,7 +216,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -229,7 +229,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -242,7 +242,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Khalifa",
+      "Rukmini",
       25,
       "Female",
       "B negative",
@@ -255,7 +255,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -268,7 +268,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -281,7 +281,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -294,7 +294,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -307,7 +307,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -320,7 +320,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -333,7 +333,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -346,7 +346,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -359,7 +359,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -372,7 +372,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Clark",
+      "Ram",
       29,
       "Female",
       "B negative",
@@ -385,7 +385,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -398,7 +398,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -411,7 +411,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -424,7 +424,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -437,7 +437,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -450,7 +450,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -463,7 +463,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -476,7 +476,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -489,7 +489,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -502,7 +502,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Khalifa",
+      "Rukmini",
       25,
       "Female",
       "B negative",
@@ -515,7 +515,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -528,7 +528,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -541,7 +541,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -554,7 +554,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -567,7 +567,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -580,7 +580,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -593,7 +593,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -606,7 +606,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -619,7 +619,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -632,7 +632,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Clark",
+      "Ram",
       29,
       "Female",
       "B negative",
@@ -645,7 +645,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -658,7 +658,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -671,7 +671,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -684,7 +684,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -697,7 +697,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -710,7 +710,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -723,7 +723,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -736,7 +736,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -749,7 +749,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -762,7 +762,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Khalifa",
+      "Rukmini",
       25,
       "Female",
       "B negative",
@@ -775,7 +775,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -788,7 +788,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -801,7 +801,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -814,7 +814,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -827,7 +827,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -840,7 +840,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -853,7 +853,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -866,7 +866,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -879,7 +879,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -892,7 +892,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Clark",
+      "Ram",
       29,
       "Female",
       "B negative",
@@ -905,7 +905,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -918,7 +918,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
@@ -931,7 +931,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Aman Gupta",
+      "Jatin Gupta",
       44,
       "Male",
       "B positive",
@@ -944,7 +944,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Michael Miller",
+      "Jatin Chahar",
       34,
       "Male",
       "A negative",
@@ -957,7 +957,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "David Wright",
+      "Parv Mehta",
       45,
       "Male",
       "B positive",
@@ -970,7 +970,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ethan Clark",
+      "Harry Potter",
       23,
       "Male",
       "O negative",
@@ -983,7 +983,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Ryan GupMillerta",
+      "Luffy",
       34,
       "Male",
       "AB positive",
@@ -996,7 +996,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Olivia Robinson",
+      "Krishna",
       77,
       "Female",
       "A negative",
@@ -1009,7 +1009,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Emma Gupta",
+      "Radha",
       23,
       "Female",
       "B positive",
@@ -1022,7 +1022,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Mia Khalifa",
+      "Rukmini",
       25,
       "Female",
       "B negative",
@@ -1035,7 +1035,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Sofia Wright",
+      "Hanuman",
       83,
       "Female",
       "O positive",
@@ -1048,7 +1048,7 @@ async function main() {
   transactionResponse = await medical
     .connect(user1)
     .addRecord(
-      "Victoria Robinson",
+      "Lakshman",
       93,
       "Female",
       "O negative",
